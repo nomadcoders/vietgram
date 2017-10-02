@@ -1,8 +1,7 @@
 #feed{
     display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    
+    align-items: center;
+    flex-direction: column;
 }
 
 #feed .photo{
@@ -11,4 +10,44 @@
     border-radius:3px;
     width: 100%;
     max-width: 600px;
+}
+
+.photo .photo__header{
+    padding:15px;
+    display: flex;
+    align-items: center;
+}
+
+.photo__header .photo__avatar{
+    width:32px;
+    border-radius: 50%;
+    margin-right:10px;
+}
+
+.photo .photo__user-info .photo__author{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.photo > img {
+    max-width: 100%;
+}
+
+.photo .photo__info{
+    padding:15px 20px;
+}
+
+.photo__actions{
+    margin-bottom:15px;
+}
+
+.photo__actions .photo__action:first-child{
+    margin-right:15px;
+}
+
+.photo .photo__likes{
+    font-weight: 600;
+    margin-bottom:20px;
+    display: block;
 }
