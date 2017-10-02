@@ -1,0 +1,14 @@
+#feed{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+#feed .photo{
+    background-color:white;
+    border:1px solid #e6e6e6;
+    border-radius:3px;
+    width: 100%;
+    max-width: 600px;
+}
