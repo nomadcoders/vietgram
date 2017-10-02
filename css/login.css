@@ -1,0 +1,37 @@
+#login{
+    width:100%;
+    max-width: 800px;
+    margin:45px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#login .login__column{
+    width:45%;
+}
+
+.login__column .login__phone{
+    max-width: 100%;
+}
+
+.login__column .login__box{
+    background-color:white;
+    border:1px solid #e6e6e6;
+}
+
+.login__column .login__box--transparent{
+    background: none;
+    border:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:35px;
+}
+
+.login__column .login__appstores{
+    margin-top:20px;
+}
+
+.login__appstores .login__appstore{
+    height: 40px;
+}
