@@ -55,8 +55,8 @@
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding:10px;
-    font-size:16px;
+    padding:7px;
+    font-size:14px;
     border:0;
     border:1px solid #e6e6e6;
     border-radius:5px;
@@ -88,7 +88,8 @@
     font-weight: 600;
     color:#999;
     margin-bottom:20px;
-    font-size:12px;
+    position: relative;
+    width: 100%;
 }
 
 #login .login__link{
@@ -104,4 +105,24 @@
 .login__box a {
     text-decoration: none;
     color:#3897f0;
+}
+
+#login .login__divider:before{
+    content:'';
+    height:1px;
+    background-color:rgba(153, 153, 153, 0.5);
+    width:40%;
+    position: absolute;
+    left:0;
+    top:10px;
+}
+
+#login .login__divider:after{
+    content:'';
+    height:1px;
+    background-color:rgba(153, 153, 153, 0.5);
+    width:40%;
+    position: absolute;
+    right:0;
+    top:10px;
 }
