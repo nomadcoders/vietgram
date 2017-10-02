@@ -35,3 +35,73 @@
 .login__appstores .login__appstore{
     height: 40px;
 }
+
+#login .login__box{
+    padding:30px 0;
+    text-align: center;
+}
+
+#login .login__box:first-child{
+    margin-bottom:10px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.login__column .login__logo{
+    height:50px;
+}
+
+.login__form input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding:10px;
+    font-size:16px;
+    border:0;
+    border:1px solid #e6e6e6;
+    border-radius:5px;
+    background: #FAFAFA;
+}
+
+.login__form input:focus{
+    outline:none;
+    border:1px solid #A9A9A9;
+}
+
+.login__form input:first-child{
+    margin-bottom:5px;
+}
+
+.login__form input[type="submit"]{
+    background-color:#3F99ED;
+    border:0;
+    padding:5px;
+    margin-top:15px;
+    margin-bottom:20px;
+    color:white;
+    font-weight: 600;
+}
+
+#login .login__divider{
+    display: block;
+    text-transform:uppercase;
+    font-weight: 600;
+    color:#999;
+    margin-bottom:20px;
+    font-size:12px;
+}
+
+#login .login__link{
+    display: block;
+    text-decoration: none;
+    color:#003569;
+}
+
+#login .login__link--small{
+    margin-top:30px;
+}
+
+.login__box a {
+    text-decoration: none;
+    color:#3897f0;
+}
