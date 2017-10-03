@@ -74,6 +74,12 @@
 
 .profile__title i {
   cursor: pointer;
+  transition: transform 10s ease-in;
+  display: block;
+}
+
+profile__title:hover i {
+  transform: rotate(5turn);
 }
 
 .profile__column .profile__stats {
