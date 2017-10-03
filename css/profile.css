@@ -114,6 +114,7 @@
   color: white;
   font-weight: 600;
   opacity: 0;
+  transition: opacity 0.2s linear;
 }
 
 .profile__photo-overlay .overlay__item {
