@@ -25,6 +25,18 @@
 
 .profile__column:first-child img {
   border-radius: 50%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s linear;
+  animation: rotateLynn 1s linear infinite;
+}
+
+@keyframes rotateLynn {
+  from {
+    transform: rotateY(0turn);
+  }
+  to {
+    transform: rotateY(1turn);
+  }
 }
 
 .profile__column .profile__title,
