@@ -5,7 +5,7 @@
 }
 
 #profile .profile__header {
-  max-width: 900px;
+  max-width: 935px;
   width: 100%;
   display: flex;
   margin-bottom: 50px;
@@ -82,4 +82,54 @@
 
 .profile__column .profile__bio {
   line-height: 125%;
+}
+
+#profile .profile__photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 936px;
+  width: 100%;
+}
+
+.profile__photos .profile__photo {
+  width: 31%;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.profile__photo img {
+  max-width: 100%;
+}
+
+.profile__photo .profile__photo-overlay {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.profile__photo-overlay .overlay__item {
+  font-size: 130%;
+  display: flex;
+  align-items: center;
+}
+.profile__photo-overlay .overlay__item:last-child {
+  margin-left: 10px;
+}
+
+.profile__photo-overlay .overlay__item i {
+  font-size: 130%;
+  margin-right: 5px;
+}
+
+.profile__photo:hover .profile__photo-overlay {
+  opacity: 1;
 }
