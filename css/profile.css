@@ -74,12 +74,11 @@
 
 .profile__title i {
   cursor: pointer;
-  transition: transform 10s ease-in;
-  display: block;
+  transition: transform 1s ease-in;
 }
 
-profile__title:hover i {
-  transform: rotate(5turn);
+.profile__title i:hover {
+  transform: rotate(2turn);
 }
 
 .profile__column .profile__stats {
