@@ -141,6 +141,10 @@
   transition: opacity 0.2s linear;
 }
 
+.profile__photo:hover .profile__photo-overlay {
+  opacity: 1;
+}
+
 .profile__photo-overlay .overlay__item {
   font-size: 130%;
   display: flex;
@@ -148,13 +152,10 @@
 }
 .profile__photo-overlay .overlay__item:last-child {
   margin-left: 10px;
+  /**/
 }
 
 .profile__photo-overlay .overlay__item i {
   font-size: 130%;
   margin-right: 5px;
-}
-
-.profile__photo:hover .profile__photo-overlay {
-  opacity: 1;
 }

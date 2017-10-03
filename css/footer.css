@@ -17,7 +17,7 @@
 }
 
 .footer .footer__copyright {
-  color: #999;
+  color: hsl(0, 0%, 60%);
 }
 
 .footer__list .footer__list-item {
