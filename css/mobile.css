@@ -1,0 +1,29 @@
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .navigation {
+    padding: 0 20px;
+    margin-bottom: 0;
+  }
+  .navigation input,
+  .navigation .fa-search {
+    display: none;
+  }
+  #feed .photo {
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 20px;
+  }
+  #feed .photo .photo__add-comment-container {
+    display: none;
+  }
+  .footer {
+    width: 80%;
+  }
+  .footer,
+  .footer .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer__list .footer__list-item {
+    margin-bottom: 10px;
+  }
+}
