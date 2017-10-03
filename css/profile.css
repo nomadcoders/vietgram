@@ -93,7 +93,7 @@
 }
 
 .profile__bio a {
-  color: #003569;
+  color: var(--link-color);
   font-weight: 600;
   text-decoration: none;
   display: block;
