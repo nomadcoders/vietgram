@@ -26,4 +26,49 @@
   .footer__list .footer__list-item {
     margin-bottom: 10px;
   }
+  #login .login__column {
+    width: 100%;
+  }
+  #login .login__column:first-child {
+    display: none;
+  }
+  #login .login__box {
+    background-color: transparent;
+    border: 0;
+  }
+  #profile {
+    margin-top: 50px;
+  }
+  #profile .profile__header {
+    flex-direction: column;
+    align-items: center;
+  }
+  #profile .profile__title {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .profile__title h3 {
+    margin: 20px 0;
+  }
+  .profile__title a {
+    margin-right: auto;
+  }
+  .profile__stats {
+    justify-content: space-between;
+  }
+  .profile__stats .profile__stat {
+    text-align: center;
+    margin-right: 0;
+  }
+  .profile__stat span {
+    display: block;
+  }
+  .profile__photos .profile__photo {
+    width: 33%;
+    margin-bottom: 0;
+  }
+  .profile__photos {
+    margin-bottom: 50px;
+  }
 }
