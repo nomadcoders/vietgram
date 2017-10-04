@@ -71,4 +71,11 @@
   .profile__photos {
     margin-bottom: 50px;
   }
+  #explore .explore__users {
+    background-color: transparent;
+    border: 0;
+  }
+  .explore__users .explore__user {
+    border: 0;
+  }
 }

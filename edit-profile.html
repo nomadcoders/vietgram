@@ -44,7 +44,9 @@
     <main id="edit-profile">
         <div class="edit-profile__container">
             <header class="edit-profile__header">
-                <img src="images/avatar.jpg" class="edit-profile__avatar" />
+                <div class="edit-profile__avatar-container">
+                    <img src="images/avatar.jpg" class="edit-profile__avatar" />
+                </div>
                 <h4 class="edit-profile__username">serranoarevalo</h4>
             </header>
             <form action="" class="edit-profile__form">
@@ -64,7 +66,6 @@
                     <label for="bio" class="form__label">Bio:</label>
                     <textarea id="bio"></textarea>
                 </div>
-                <span class="form__divider">Private Information</span>
                 <div class="form__row">
                     <label for="email" class="form__label">Email:</label>
                     <input id="email" type="email" class="form__input" />
@@ -80,11 +81,6 @@
                         <option value="female">Female</option>
                         <option value="cant">Can't remember</option>
                     </select>
-                </div>
-                <div class="form__row">
-                    <span class="form__label">Similar Account Suggestions:</span>
-                    <input type="checkbox" id="similar">
-                    <label for="similar">Include your account when recommending similar accounts people might want to follow.</label>
                 </div>
                 <input type="submit" value="Submit">
             </form>
