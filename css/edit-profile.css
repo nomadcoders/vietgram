@@ -36,7 +36,8 @@
   border-radius: 50%;
 }
 .edit-profile__header h4 {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .edit-profile__form .form__row {
