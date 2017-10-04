@@ -78,6 +78,9 @@
   .explore__users .explore__user {
     border: 0;
   }
+  #edit-profile > .edit-profile__container {
+    border: 0;
+  }
   #edit-profile .form__row {
     flex-direction: column;
   }
